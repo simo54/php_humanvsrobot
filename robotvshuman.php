@@ -12,10 +12,10 @@ $min = 1;
 $max = 50;
 
 // Human choice
-$guess = 30; //Change this value to test!
+$guess = 50; //Change this value to play!
 
 // Robot choice
-$num = rand($min, $max); // Change this value to test!
+$num = rand($min, $max); 
 
 echo "Robot choosed random number. \nHuman picked up " . $guess . ".\n\n";
 
